@@ -6,7 +6,7 @@ public class KillProcessRunnable implements Runnable{
     public void run(){
         while(true){
             try {
-                Thread.sleep(8000);
+                Thread.sleep(80000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
